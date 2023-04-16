@@ -1,5 +1,13 @@
-package org.example;public class Main {
+package org.example;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        //prepare to send mail
+
+        System.out.println("This application is supposed to send mails");
+
+        HandleAttachments mailer = new HandleAttachments();
+        mailer.sendMail();
     }
 }
